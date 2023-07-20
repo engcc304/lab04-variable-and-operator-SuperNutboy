@@ -45,5 +45,6 @@ int main() {
 
     printf ( "Employee ID =%s\n" , EmployeeID) ;
     printf ( "Salary = U$%0.2f\n" , Salary ) ;
+    
     return 0 ;
 }//end main function
