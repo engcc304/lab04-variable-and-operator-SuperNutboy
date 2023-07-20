@@ -29,7 +29,22 @@
 
 int main() {
 
-    //--| YOUR CODE HERE
+    char EmployeeID [ 10 ];
+    int Hours,SalaryHrs;
+    float Salary;
 
+    printf ( "Input the Employees ID(Max. 10 chars):\n" );
+    scanf ( "%s" , EmployeeID );
+    printf ( "Input the working hrs:\n");
+    scanf ( "%d" , &Hours );
+    printf ( "Salary amount/hr: \n" );
+    scanf ( "%d" , &SalaryHrs );
+
+    Salary = Hours * SalaryHrs;
+
+    printf ( "Expected Output:\n" );
+    printf ( "Employees ID = %s\n" , EmployeeID);
+    printf ( "Salary = U$ %0.2f\n" , Salary );
+    
     return 0 ;
 }//end main function
