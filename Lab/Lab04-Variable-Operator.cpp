@@ -29,7 +29,6 @@
 
 int main() {
 
-    //--| YOUR CODE HERE
     char EmployeeID [ 10 ];
     int Hours,SalaryHrs;
     float Salary;
