@@ -30,6 +30,20 @@
 int main() {
 
     //--| YOUR CODE HERE
+    char EmployeeID [ 10 ] ;
+    int Hours,SalaryHrs ;
+    float Salary ;
 
+    printf ( "Enter EmpID :\n " ) ;
+    scanf ( "%s" , EmployeeID ) ;
+    printf ( "Enter Working Hrs :\n ") ;
+    scanf ( "%d" , &Hours ) ;
+    printf ( "Salary amount/hr :\n" ) ;
+    scanf ( "%d" , &SalaryHrs ) ;
+
+    Salary = Hours * SalaryHrs ;
+
+    printf ( "Employee ID =%s\n" , EmployeeID) ;
+    printf ( "Salary = U$%0.2f\n" , Salary ) ;
     return 0 ;
 }//end main function
