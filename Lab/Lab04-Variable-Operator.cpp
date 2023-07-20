@@ -42,7 +42,7 @@ int main() {
 
     Salary = Hours * SalaryHrs;
 
-    printf ( "Expected Output:\n" )
+    printf ( "Expected Output:\n" );
     printf ( "Employees ID = %s\n" , EmployeeID);
     printf ( "Salary = U$ %0.2f\n" , Salary );
     
